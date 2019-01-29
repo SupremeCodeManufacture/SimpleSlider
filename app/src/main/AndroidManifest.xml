@@ -17,6 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="view.activity.Activity1" />
+        <activity android:name="view.activity.Activity2" />
+        <activity android:name="view.activity.Activity3" />
+        <activity android:name="view.activity.Activity4" />
+        <activity android:name="view.activity.Activity5" />
 
     </application>
 

@@ -1,7 +1,6 @@
 package data;
 
 import android.graphics.Color;
-
 import com.demotxt.droidsrce.slide.R;
 
 public class DataRepo {
@@ -13,6 +12,14 @@ public class DataRepo {
             "GALAXY",
             "ROCKET",
             "ROCKET"
+    };
+
+    public static String[] btnTitles = {
+            "OGONI 1",
+            "OGONI 2",
+            "OGONI 3",
+            "OGONI 4",
+            "OGONI 5",
     };
 
     public static String[] descriptions = {
@@ -31,15 +38,6 @@ public class DataRepo {
             R.drawable.image_4
     };
 
-    public int[] layouts = {
-            R.layout.activity_main,
-            R.layout.activity_main,
-            R.layout.activity_main,
-            R.layout.activity_main,
-            R.layout.activity_main
-    };
-
-
     public static int[] bgColors = {
             Color.rgb(55, 55, 55),
             Color.rgb(239, 85, 85),
@@ -47,6 +45,4 @@ public class DataRepo {
             Color.rgb(1, 188, 212),
             Color.rgb(1, 188, 212)
     };
-
-
 }
